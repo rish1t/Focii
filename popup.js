@@ -224,7 +224,7 @@ function drawChart(chart_data) {
 
 function drawTable(table_data, type) {
   var data = new google.visualization.DataTable();
-  data.addColumn("string", "Domain");
+  data.addColumn("string", "Site");
   var timeDesc;
   if (type === bg.TYPE.today) {
     timeDesc = "Today";
